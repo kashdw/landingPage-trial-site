@@ -5,12 +5,12 @@ body {
   }
   
   .header {
-    background: rgb(199, 165, 233);
+    background: rgb(102, 75, 255);
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
     display: flex;
     justify-content: space-between;
-    padding: 8px 60px
+    padding: 8px 100px
   }
 
   .logo {
@@ -30,7 +30,6 @@ body {
     margin: 0;
     padding: 0;
     gap: 16px;
-     /* pushes away from border */
   }
 
 .right {
@@ -39,3 +38,39 @@ body {
     gap: 16px;
   }
   
+.section1_child{
+    background: rgb(102, 75, 255);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 100px
+   
+}
+.section1_words{
+    
+    background: rgb(102, 75, 255);
+    margin: 0;
+    
+}
+.section1_words .title{
+    max-width: 200px;
+    color: white;
+}
+.section1_words .subtext{
+    max-width: 300px;
+    color:antiquewhite;
+}
+
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgb(78, 78, 78);
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.image{
+    background-color: gray;
+
+}
